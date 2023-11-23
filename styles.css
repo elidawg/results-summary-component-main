@@ -19,6 +19,11 @@
     box-sizing: border-box;
 }
 
+body {
+    display: grid;
+    place-items: center;
+}
+
 .top {
     background-color: var(--Lightblue);
     text-align: center;
@@ -182,13 +187,13 @@ span {
         border-top-right-radius: 20px;
         border-top-left-radius: 20px;
         padding: 80px 50px 0px;
-        width: 35%;
+        width: 40%;
         position: relative;
         margin-right: -20px;
     }
 
     .section {
-        width: 35%;
+        width: 40%;
         background-color: var(--White);
         padding: 0px 30px 0px 50px;
         box-shadow: 0 0 5px 5px whitesmoke;
